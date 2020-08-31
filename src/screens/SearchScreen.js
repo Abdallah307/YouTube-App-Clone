@@ -42,7 +42,14 @@ const SearchScreen = (props)=>{
                             
                         </View>
                     </TouchableOpacity>
-                <TextInput  onSubmitEditing={()=>fetchData()} value={value} onChangeText={text=>setValue(text)}  returnKeyType='search' style={styles.searchInput} placeholder="Search Youtube" />
+                <TextInput  
+                onSubmitEditing={()=>fetchData()} 
+                value={value} 
+                onChangeText={text=>setValue(text)}  
+                returnKeyType='search' 
+                style={styles.searchInput} 
+                placeholder="Search Youtube" 
+                />
             
                 </View>
             
