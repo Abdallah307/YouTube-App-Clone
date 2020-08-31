@@ -2,7 +2,7 @@ import React,{useState, useEffect} from 'react';
 import {View , Text , StyleSheet, TextInput ,Image, TouchableNativeFeedback, TouchableOpacity, ScrollView ,FlatList,ActivityIndicator} from 'react-native';
 import MiniCard from '../components/MiniCard'
 import YouTubeDataService from '../Services/YouTubeDataService';
-// TODO: https://www.googleapis.com/youtube/v3/search?part=snippet&maxResults=10&q=songs&type=video&key=AIzaSyCCW-72Zu0g-jqgy1aTEESOd0s5J88omkQ
+
 
 const SearchScreen = (props)=>{
     const [value , setValue] = useState('')
